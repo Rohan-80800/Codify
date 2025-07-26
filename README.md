@@ -1,12 +1,49 @@
-# React + Vite
+# 🚀 Codify | Where Code Meets Collaboration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Codify** – a powerful, seamless, and real-time collaborative code editor built for developers, students, instructors, and teams who believe in building together.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Needs Addressed by Codify
 
-## Expanding the ESLint configuration
+- 👯‍♀️ **Seamless Collaboration**  
+  Whether you're pair programming, working on group projects, or conducting a coding workshop – Codify enables multiple users to code on the same file in real time.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🌐 **Remote Work and Learning**  
+  In a world moving towards remote-first environments, Codify provides a shared virtual workspace that feels like you're coding side by side.
+
+- ⚡ **Instant Feedback**  
+  No delays, no confusion – Codify updates code in real time for all participants, enabling fast-paced development, effective teaching, and immediate reviews.
+
+---
+
+## 🎯 Advantages to Users
+
+- 💬 **Real-Time Interaction**  
+  Experience ultra-low latency and instant updates – perfect for live code reviews, technical interviews, and collaborative problem-solving.
+
+- 📈 **Enhanced Productivity**  
+  Eliminate the need for repeated file sharing or screen sharing. Focus on the code while Codify handles the sync.
+
+- 🧠 **Ease of Use**  
+  Thanks to WebSocket technology, there's no need to manually refresh or pull updates – just open the editor and start collaborating.
+
+- 💡 **Resource Efficiency**  
+  Codify is built with performance in mind – no unnecessary polling, reduced server load, and a smoother experience for all.
+
+---
+
+## 🔧 Tech Stack
+
+- ⚙️ **Backend:** Node.js, Express.js, Socket.IO  
+- 💻 **Frontend:** React, CodeMirror  
+
+---
+
+## 📦 Getting Started
+
+```bash
+git clone https://github.com/Rohan-80800/Codify.git
+cd Codify
+npm install
+npm run dev
