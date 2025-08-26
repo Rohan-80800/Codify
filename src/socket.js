@@ -13,7 +13,7 @@ export const initSocket = async () => {
     transports: ["websocket"]
   };
 
-  const backendURL = import.meta.env.VITE_BACKEND_URL;
+  const backendURL = import.meta.env.VITE_BACKEND_URL || "/";
  
   console.log("Connecting to backend:", backendURL);
 
